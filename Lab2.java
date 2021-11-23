@@ -10,7 +10,7 @@ public class Lab2 {
         int n = sc.nextInt();
         int m = 1;
         System.out.print(n + "!=");
-        if (n < 15) {
+        if (n > 1 && n < 15) {
             while (n > 1){
                 m = m * n;
                 n--;
